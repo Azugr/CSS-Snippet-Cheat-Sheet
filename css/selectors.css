@@ -1,0 +1,22 @@
+/*
+MIT License
+Copyright (c) 2024 [Your Name]
+See LICENSE file in the project root for full license information.
+*/
+
+/* Pseudo-class :hover */
+.button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* nth-child Selector */
+  ul li:nth-child(odd) {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Pseudo-element :before */
+  h2::before {
+    content: '★ ';
+    color: var(--primary-color);
+  }
+  

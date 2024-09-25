@@ -1,0 +1,17 @@
+/*
+MIT License
+Copyright (c) 2024 [Your Name]
+See LICENSE file in the project root for full license information.
+*/
+
+/* Overflow Example */
+.overflow-box {
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+  }
+  
+  .hidden-overflow {
+    overflow: hidden;
+  }
+  

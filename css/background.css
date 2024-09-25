@@ -1,0 +1,42 @@
+/*
+MIT License
+Copyright (c) 2024 [Your Name]
+See LICENSE file in the project root for full license information.
+*/
+
+/* Background Colors */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Background Image */
+.bg-image {
+  background-image: url('../assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+:root {
+  --primary-color: #2a9d8f;  /* Default primary color */
+  --secondary-color: #e9c46a; /* Default secondary color */
+}
+
+body.dark-mode {
+  --primary-color: #e76f51;  /* Dark mode primary color */
+  --secondary-color: #f4a261; /* Dark mode secondary color */
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode pre {
+  background-color: #555;
+  color: #ddd;
+}

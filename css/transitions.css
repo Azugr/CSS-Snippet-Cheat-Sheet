@@ -1,0 +1,32 @@
+/*
+MIT License
+Copyright (c) 2024 [Your Name]
+See LICENSE file in the project root for full license information.
+*/
+
+/* Simple hover transition */
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /* Scale transition */
+  .scale-box {
+    width: 200px;
+    height: 200px;
+    background-color: #666;
+    transition: transform 0.3s ease;
+  }
+  
+  .scale-box:hover {
+    transform: scale(1.2);
+  }
+  
