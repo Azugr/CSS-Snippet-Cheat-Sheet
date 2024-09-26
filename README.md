@@ -92,3 +92,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contributing
 
 If you have additional CSS snippets that would benefit the collection, feel free to submit a pull request. Contributions are always welcome!
+
+Email: draazucenagarcia@ayudarenal.com    LinkedIn: linkedin.com/in/draazucenagarcia
